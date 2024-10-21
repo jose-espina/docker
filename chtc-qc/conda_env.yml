@@ -1,0 +1,9 @@
+name: chtc-QC
+channels:
+  - bioconda
+  - defaults
+  - conda-forge
+dependencies:
+  - fastqc
+  - multiqc
+  - trim-galore
