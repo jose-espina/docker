@@ -1,9 +1,11 @@
 name: chtc-QC
 channels:
+  - conda-forge
   - bioconda
   - defaults
-  - conda-forge
+  - nodefaults
 dependencies:
-  - fastqc
-  - multiqc
-  - trim-galore
+  - python=3.11.10
+  - fastqc=0.12.1
+  - multiqc=1.25.1
+  - trim-galore=0.6.10
