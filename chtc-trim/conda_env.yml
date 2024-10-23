@@ -1,0 +1,11 @@
+name: chtc-trim
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - nodefaults
+dependencies:
+  - python=3.11.10
+  - fastqc=0.12.1
+  - multiqc=1.25.1
+  - trim-galore=0.6.10
