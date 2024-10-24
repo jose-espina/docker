@@ -1,8 +1,8 @@
-name: chtc-QC
+name: chtc-alignment
 channels:
   - conda-forge
   - bioconda
   - defaults
   - nodefaults
 dependencies:
-  - python=3.11.10
+  - bowtie2=2.5.4
