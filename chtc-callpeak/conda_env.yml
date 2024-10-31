@@ -1,0 +1,8 @@
+name: chtc-alignment
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - nodefaults
+dependencies:
+  - macs2=2.2.9.1
