@@ -1,0 +1,8 @@
+name: chtc-deeptools
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - nodefaults
+dependencies:
+  - deeptools
