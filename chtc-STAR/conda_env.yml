@@ -1,0 +1,10 @@
+name: chtc-STAR
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - nodefaults
+dependencies:
+  - samtools=1.21
+  - bedtools=2.31.1
+
