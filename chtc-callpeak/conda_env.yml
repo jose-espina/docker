@@ -1,8 +1,10 @@
-name: chtc-alignment
+name: chtc-callpeak
 channels:
   - conda-forge
   - bioconda
   - defaults
   - nodefaults
 dependencies:
+  - python=3.11.*
   - macs2=2.2.9.1
+  - bedtools

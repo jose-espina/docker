@@ -1,12 +1,10 @@
-name: chtc-alignment
+name: chtc-STAR
 channels:
   - conda-forge
   - bioconda
   - defaults
   - nodefaults
 dependencies:
-  - bowtie2=2.5.4
-  - hisat2=2.2.1
   - samtools=1.21
   - bedtools=2.31.1
 

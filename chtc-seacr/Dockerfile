@@ -9,6 +9,9 @@ WORKDIR ./
 RUN apt-get update && \
     apt-get install -y procps
 
+# install R
+RUN yum -y install R-core
+
 # install conda packages
 COPY conda_env.yml ./
 
