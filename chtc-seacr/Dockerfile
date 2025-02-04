@@ -7,10 +7,8 @@ WORKDIR ./
 
 # install (nf tracing)
 RUN apt-get update && \
-    apt-get install -y procps
+    apt-get install -y procps r-base
 
-# install R
-RUN yum -y install R-core
 
 # install conda packages
 COPY conda_env.yml ./
